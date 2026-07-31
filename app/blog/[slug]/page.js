@@ -14,7 +14,7 @@ export function generateMetadata({ params }) {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
   return {
-    title: ${article.title} | محمد الرفاعي,
+    title: article.title + " | محمد الرفاعي",
     description: article.excerpt,
     openGraph: {
       title: article.title,
