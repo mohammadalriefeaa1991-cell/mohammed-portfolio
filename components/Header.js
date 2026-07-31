@@ -5,6 +5,7 @@ const links = [
   { href: "#services", label: "الخدمات" },
   { href: "#portfolio", label: "الأعمال" },
   { href: "#identity", label: "الهوية البصرية" },
+  { href: "/blog", label: "المقالات" },
   { href: "#contact", label: "تواصل" },
 ];
 
