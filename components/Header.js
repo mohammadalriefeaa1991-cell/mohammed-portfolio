@@ -27,7 +27,7 @@ export default function Header() {
           ))}
         </nav>
         <a
-          href="https://wa.me/00963998698501"
+          href="https://wa.me/+963998698501"
           target="_blank"
           rel="noopener noreferrer"
           className="focus-ring rounded-full bg-ink px-4 py-2 text-sm font-bold text-paper transition hover:bg-indigo"

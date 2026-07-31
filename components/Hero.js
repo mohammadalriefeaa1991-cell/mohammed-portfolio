@@ -27,7 +27,7 @@ export default function Hero() {
               شاهد خدماتي
             </a>
             <a
-              href="https://wa.me/00963998698501"
+              href="https://wa.me/+963998698501"
               target="_blank"
               rel="noopener noreferrer"
               className="focus-ring rounded-full border border-ink/15 px-6 py-3 text-sm font-bold text-ink transition hover:border-indigo hover:text-indigo"

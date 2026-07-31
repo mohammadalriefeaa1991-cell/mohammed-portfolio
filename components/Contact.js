@@ -16,7 +16,7 @@ export default function Contact() {
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
-            href="https://wa.me/00963998698501"
+            href="https://wa.me/+963998698501"
             target="_blank"
             rel="noopener noreferrer"
             className="focus-ring rounded-full bg-growth-gradient px-6 py-3 text-sm font-bold text-ink transition hover:opacity-90"
