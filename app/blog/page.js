@@ -27,7 +27,7 @@ export default function BlogIndex() {
           {articles.map((a) => (
             <Link
               key={a.slug}
-              href={/blog/${a.slug}}
+              href={"/blog/" + a.slug}
               className="focus-ring group block overflow-hidden rounded-2xl border border-ink/10 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo/10"
             >
               <div className="relative aspect-[16/9] w-full overflow-hidden">
