@@ -16,6 +16,18 @@ export default function ArticleBody({ content }) {
             </h3>
           );
         }
+        if (block.type === "stats") {
+          return (
+            <div key={i} className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
+              {block.items.map((s, j) => (
+                <div key={j} className="rounded-2xl border border-ink/10 bg-ink/[0.02] p-4 text-center">
+                  <p className="font-display text-xl font-extrabold text-indigo md:text-2xl">{s.value}</p>
+                  <p className="mt-1 text-xs text-ink/60">{s.label}</p>
+                </div>
+              ))}
+            </div>
+          );
+        }
         if (block.type === "ul") {
           return (
             <ul key={i} className="mt-4 space-y-2">
