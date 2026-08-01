@@ -1,19 +1,19 @@
 import Image from "next/image";
 
 const links = [
-  { href: "#about", label: "نبذة" },
-  { href: "#services", label: "الخدمات" },
-  { href: "#portfolio", label: "الأعمال" },
-  { href: "#identity", label: "الهوية البصرية" },
+  { href: "/#about", label: "نبذة" },
+  { href: "/#services", label: "الخدمات" },
+  { href: "/#portfolio", label: "الأعمال" },
+  { href: "/#identity", label: "الهوية البصرية" },
   { href: "/blog", label: "المقالات" },
-  { href: "#contact", label: "تواصل" },
+  { href: "/#contact", label: "تواصل" },
 ];
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/5 bg-paper/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
-        <a href="#top" className="flex items-center gap-2 focus-ring rounded-md">
+        <a href="/" className="flex items-center gap-2 focus-ring rounded-md">
           <Image src="/logo.png" alt="شعار محمد الرفاعي" width={40} height={40} className="h-10 w-10" />
           <span className="font-display text-lg font-extrabold text-ink">محمد الرفاعي</span>
         </a>
