@@ -3,7 +3,7 @@ export const caseStudies = [
     slug: "syria-travel-platform",
     title: "بناء العلامة الرقمية لمنصة حجز سياحي وتحويلها إلى مصدر مستمر للعملاء المحتملين",
     excerpt: "من الصفر إلى أكثر من 45,000 متابع و2,000 عميل محتمل خلال 3 أشهر فقط.",
-    cover: "/work-03-syriabooking.jpg",
+    cover: "/case-photo-global-reach.jpg",
     stats: [
       { value: "+12,000", label: "متابع Instagram" },
       { value: "+30,000", label: "متابع Facebook" },
@@ -30,7 +30,7 @@ export const caseStudies = [
     slug: "turkey-travel-platform",
     title: "بناء العلامة الرقمية لمنصة حجز وسفر من الصفر وتحويلها إلى قناة فعالة لجذب العملاء",
     excerpt: "من الصفر إلى أكثر من 60,000 متابع و2,300 عميل محتمل خلال 5 أشهر.",
-    cover: "/case-cover-travel-platform.jpg",
+    cover: "/case-photo-travel.jpg",
     content: [
       { type: "p", text: "منصة متخصصة في خدمات حجز الفنادق والرحلات والخدمات السياحية في تركيا، تم إطلاقها حديثًا، وكان الهدف من المشروع بناء حضور رقمي قوي، وزيادة الوعي بالعلامة التجارية، وجذب العملاء المحتملين عبر منصات التواصل الاجتماعي." },
       { type: "stats", items: [{ value: "+20,000", label: "متابع Instagram" }, { value: "+40,000", label: "متابع Facebook" }, { value: "+2,300", label: "عميل محتمل" }, { value: "5 أشهر", label: "مدة التنفيذ" }] },
@@ -51,7 +51,7 @@ export const caseStudies = [
     slug: "charity-donations-growth",
     title: "تنمية الحضور الرقمي لمؤسسة خيرية وزيادة التبرعات عبر التسويق الرقمي",
     excerpt: "من 2,500 متابع إلى أكثر من 68,000، وتبرعات تجاوزت 300,000 ليرة تركية.",
-    cover: "/work-02-jeel-alquran.jpg",
+    cover: "/case-photo-charity-ramadan.jpg",
     stats: [
       { value: "+60,000", label: "متابع Facebook" },
       { value: "+8,000", label: "متابع Instagram" },
@@ -77,7 +77,7 @@ export const caseStudies = [
     slug: "field-marketing-partnerships",
     title: "قيادة وتنفيذ استراتيجية التسويق الميداني وبناء الشراكات التجارية",
     excerpt: "توسيع شبكة العلاقات التجارية وتعزيز الحضور في المعارض والفعاليات المتخصصة.",
-    cover: "/case-cover-field-marketing.jpg",
+    cover: "/case-photo-business-meeting.jpg",
     content: [
       { type: "p", text: "شركة تعمل في قطاع الاستثمار والخدمات اللوجستية، هدفت إلى توسيع شبكة علاقاتها التجارية، وتعزيز حضورها في السوق، وبناء شراكات استراتيجية مع الشركات والجهات ذات العلاقة، بالإضافة إلى تمثيل الشركة في الفعاليات والمعارض المتخصصة." },
       { type: "h2", text: "التحديات" },
